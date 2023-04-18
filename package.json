@@ -17,9 +17,7 @@
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.0.3",
-    "netlify-cli": "^14.0.0",
-    "nodemon": "^2.0.22",
-    "serverless-http": "^3.2.0"
+    "nodemon": "^2.0.22"
   },
   "devDependencies": {
     "esbuild": "^0.17.17",
