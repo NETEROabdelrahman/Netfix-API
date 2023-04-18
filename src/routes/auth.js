@@ -1,10 +1,9 @@
 import express from 'express'
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
+import userModel from '../../models/UserModel.js'
 
 const router = express.Router();
-import userModel from '../../models/UserModel.js'
-import auth from '../../middleware/auth.js';
 
 
 router.get('/', async (req, res) => {

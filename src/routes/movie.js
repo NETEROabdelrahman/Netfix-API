@@ -1,8 +1,6 @@
 import express from 'express';
-import bcrypt from "bcrypt";
 import auth from '../../middleware/auth.js';
 import movieModel from '../../models/MovieModel.js';
-import userModel from '../../models/UserModel.js';
 
 const router = express.Router();
 
