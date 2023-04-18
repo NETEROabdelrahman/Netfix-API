@@ -1,6 +1,6 @@
 import express from 'express';
-import auth from '../../middleware/auth.js';
-import listModel from '../../models/listModel.js';
+import auth from '../middleware/auth.js';
+import listModel from '../models/ListModel.js';
 
 
 const router = express.Router();
