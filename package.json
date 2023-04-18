@@ -5,9 +5,9 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node index.js",
     "dev": "nodemon index.js",
-    "build": "netlify deploy --prod",
-    "start": "netlify dev"
+    "build": "npm i"
   },
   "author": "",
   "license": "ISC",
